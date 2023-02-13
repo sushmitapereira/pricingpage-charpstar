@@ -1,0 +1,72 @@
+
+h2{
+  color: aqua;
+  text-align: center;
+  padding-top: 30px;
+}
+.sub-heading{
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 100px;
+  font-size: larger;
+}
+.card{
+  margin: 30px;
+}
+.card-body{
+  text-align:center ;
+  color: grey;
+}
+.button1{
+  display: none;
+}
+.col:hover {
+   position: relative;
+   top:-15px;
+   transition: 1s;
+}
+.col:hover .button1{
+  display: inline;
+  color:white;
+  background-color: blue;
+  border-radius: 30px;
+}
+.sideheading{
+  
+  padding-left: 30px;
+  
+}
+.sideheading:hover{
+  color:blue;
+  font-size: large;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background: transparent;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+}
+.dateanddeductible{
+  margin-top: 100px;
+  margin-left: 100px;
+
+}
+.rightcolumn{
+  width: 400px;
+  border: 15px solid blue;
+  padding: 50px;
+  margin-left: 700px;
+  text-align: center;
+}
+.button2{
+  border-radius: 30%;
+  background-color: blue;
+  color: white;
+  
+}
